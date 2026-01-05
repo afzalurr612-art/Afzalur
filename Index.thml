@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page TJKT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0d47a1, #1976d2);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h2 {
+            color: #1976d2;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background: #e3f2fd;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        button {
+            background: #1976d2;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #0d47a1;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Landing Page TJKT</h1>
+    <p>Murid SMK 1 Barunawati - Kelas 10 TJKT</p>
+</header>
+
+<section>
+    <div class="card">
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya adalah murid SMK 1 Barunawati kelas 10 jurusan 
+            <b>Teknik Jaringan Komputer dan Telekomunikasi (TJKT)</b>.
+            Saya sedang mempelajari dasar-dasar jaringan komputer, hardware,
+            software, dan teknologi jaringan.
+        </p>
+    </div>
+
+    <div class="card skills">
+        <h2>Materi yang Dipelajari</h2>
+        <ul>
+            <li>Dasar Jaringan Komputer</li>
+            <li>Perangkat Jaringan (Router, Switch, Kabel)</li>
+            <li>IP Address dan Topologi Jaringan</li>
+            <li>Perakitan Komputer</li>
+            <li>Instalasi Sistem Operasi</li>
+            <li>Simulasi Jaringan (Cisco Packet Tracer)</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Tujuan Saya</h2>
+        <p>
+            Tujuan saya belajar TJKT adalah untuk memahami jaringan komputer
+            dan menjadi tenaga IT yang profesional di masa depan.
+        </p>
+    </div>
+
+    <div class="card" style="text-align:center;">
+        <h2>Hubungi Saya</h2>
+        <p>Klik tombol di bawah untuk mengetahui lebih lanjut</p>
+        <button onclick="alert('Terima kasih telah mengunjungi website saya!')">
+            Klik Saya
+        </button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 - Murid SMK 1 Barunawati | Kelas 10 TJKT</p>
+</footer>
+
+</body>
+</html>
